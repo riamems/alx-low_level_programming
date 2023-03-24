@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  *main -function prints a Fizz Buzz program
@@ -8,7 +9,7 @@ int main(void)
 {
 	int n;
 
-	for (n = i; n <= 100; n++)
+	for (n = 1; n <= 100; n++)
 	{
 		if ((n % 3) == 0 && (n % 5) == 0)
 		{

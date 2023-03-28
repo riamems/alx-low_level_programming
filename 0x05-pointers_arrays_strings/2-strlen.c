@@ -1,17 +1,30 @@
 #include "main.h"
 /**
- * _strlen -return the length of a string
- * @s : string  to get the length
- * Return: length
+ *puts2 -function that prints every other character of a string
+ *strarting with the first character followed by a new line
+ *@str: input
+ *Return: print
  */
-int _strlen(char *s)
+void puts2(char *str)
 {
-	int length = 0;
+        int longi = 0;
+        int t = 0;
+        char *y = str;
+        int o;
 
-	while (*s++)
-
-		length++;
-
-	return (length);
+        while (*y != '\0')
+        {
+                y++;
+                longi++;
+        }
+        t = longi = 1;
+        for (o = 0; o <= t; o++)
+        {
+                if (o % 2 == 0)
+                {
+                        _putchar(str[o]);
+                }
+        }
+        _putchar('\n');
 }
 

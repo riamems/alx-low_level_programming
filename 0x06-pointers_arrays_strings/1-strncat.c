@@ -1,13 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strncat - concatenates 2 strings
- *@src : source string
+ *@src: the source string
  *@dest: the string to return
- *@n: number of characters to be appended
+ *@n: number of characters 
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
+
 {
 	int destlen = 0;
 	int srclen = 0;

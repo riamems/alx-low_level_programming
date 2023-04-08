@@ -17,7 +17,7 @@ l++;
 }
 for ( ; x < l ; x++)
 {
-dest[x] = src[x]
+dest[x] = src[x];
 }
 dest[l] = '\0';
 return (dest);

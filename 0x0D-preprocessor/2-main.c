@@ -1,13 +1,12 @@
 #include <stdio.h>
+
 /**
- * main - prints the name of a file complied from
- * Return: 0
+ * main - prints the name of the file
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-for (const char *filename = __FILE__; *filename; putchar(*filename++))
-_putchar('\n');
-
-return (0);
+	printf("%s\n", __FILE__);
+	return (0);
 }

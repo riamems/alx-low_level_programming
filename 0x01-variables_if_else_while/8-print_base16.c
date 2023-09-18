@@ -9,9 +9,10 @@ int main(void)
 	int s;
 	char m;
 
-	for (s = 48; s < 58; s++)
+	for (s = 48; s < 64; s++)
 		putchar(s);
-	for (m = 'a'; m <= 'f'; m++)
+	for (m = 'a'; m <= 'p'; m++)
 		putchar(m);
+	putchar('\n');
 	return (0);
 }

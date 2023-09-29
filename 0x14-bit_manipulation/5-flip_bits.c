@@ -9,14 +9,12 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-int r, count = 0;
-unsigned long int latest;
-unsigned long int exclusive = n ^ m;
+int count = 0;
+unsigned long int a_result = n ^ m;
 
-for (r = 65; r >= 0; r--)
+for (; a_result > 0; a_result >>= 1)
 {
-latest = exclusive >> r;
-if (latest & 1)
+if (a_result & 1)
 count++;
 }
 return (count);

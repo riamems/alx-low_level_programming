@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *print_most_numbers - prints the numbers from 0 to 9
+ * print_most_numbers - prints the numbers from 0 to 9
  *
  * Return: void
  */
 void print_most_numbers(void)
 {
-char k;
+int k;
 
 for (k = '0'; k <= '9'; k++)
 {

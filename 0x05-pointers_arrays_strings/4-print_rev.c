@@ -13,7 +13,7 @@ while (s[a] != '\0')
 a++;
 }
 s++;
-for (a -= 1; a >= 0;)
+for (a -= 1; a >= 0; a--)
 {
 _putchar(s[a]);
 }
